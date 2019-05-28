@@ -12,7 +12,7 @@ public class RegisterStepDef {
 
     @Given("^Automation practice application is opened$")
     public void automation_practice_application_is_opened() throws Throwable {
-        RegisterPage.openApplicaiton();
+        RegisterPage.openApplication();
     }
 
     @When("^I click sign in$")
