@@ -14,7 +14,7 @@ public class RegisterPage extends BasePage{
         super(driver);
     }
 
-    public static void openApplicaiton() {
+    public static void openApplication() {
         driver.navigate().to("http://automationpractice.com/index.php");
         driver.manage().window().maximize();
     }
